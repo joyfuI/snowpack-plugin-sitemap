@@ -1,0 +1,32 @@
+{
+  "name": "snowpack-plugin-sitemap",
+  "version": "0.1.0",
+  "description": "Add the process of creating a sitemap to Snowpack.",
+  "keywords": [
+    "snowpack",
+    "sitemap"
+  ],
+  "homepage": "https://github.com/joyfuI/snowpack-plugin-sitemap",
+  "bugs": "https://github.com/joyfuI/snowpack-plugin-sitemap/issues",
+  "license": "MIT",
+  "author": "joyfuI",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joyfuI/snowpack-plugin-sitemap.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "globby": "11.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "snowpack": "^3.1.2"
+  }
+}
