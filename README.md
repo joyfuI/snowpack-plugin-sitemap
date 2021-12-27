@@ -5,13 +5,13 @@
 ## 설치
 
 ```bash
-npm i -D @joyfui/snowpack-plugin-sitemap
+npm i -D snowpack-plugin-sitemap
 ```
 
 `yarn`을 사용한다면
 
 ```bash
-yarn add -D @joyfui/snowpack-plugin-sitemap
+yarn add -D snowpack-plugin-sitemap
 ```
 
 `snowpack.config.js` 파일에 `snowpack-plugin-sitemap` 플러그인을 추가합니다.
@@ -19,7 +19,7 @@ yarn add -D @joyfui/snowpack-plugin-sitemap
 ```javascript
 module.exports = {
   /* */
-  plugins: ['@joyfui/snowpack-plugin-sitemap'],
+  plugins: ['snowpack-plugin-sitemap'],
   /* */
 };
 ```
@@ -31,7 +31,7 @@ module.exports = {
   /* */
   plugins: [
     [
-      '@joyfui/snowpack-plugin-sitemap',
+      'snowpack-plugin-sitemap',
       {
         publicUrl: 'https://example.com/',
         exclude: [`include/*`],
