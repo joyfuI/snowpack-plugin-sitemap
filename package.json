@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-sitemap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add the process of creating a sitemap to Snowpack.",
   "keywords": [
     "snowpack",
@@ -25,8 +25,5 @@
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.5.1"
-  },
-  "peerDependencies": {
-    "snowpack": "^3.1.2"
   }
 }
