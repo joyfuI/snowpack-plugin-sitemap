@@ -4,6 +4,7 @@
   "description": "Add the process of creating a sitemap to Snowpack.",
   "keywords": [
     "snowpack",
+    "snowpack-plugin",
     "sitemap"
   ],
   "homepage": "https://github.com/joyfuI/snowpack-plugin-sitemap",
@@ -15,9 +16,7 @@
     "type": "git",
     "url": "https://github.com/joyfuI/snowpack-plugin-sitemap.git"
   },
-  "scripts": {
-    "publish": "npm publish --access public"
-  },
+  "scripts": {},
   "dependencies": {
     "globby": "11.0.4"
   },
