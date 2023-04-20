@@ -16,7 +16,9 @@
     "type": "git",
     "url": "https://github.com/joyfuI/snowpack-plugin-sitemap.git"
   },
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish"
+  },
   "dependencies": {
     "globby": "11.0.4"
   },
