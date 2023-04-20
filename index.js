@@ -11,6 +11,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
     exclude = [],
     gzip = false,
     changefreq,
+    trailingSlash = false,
   } = pluginOptions;
 
   return {
@@ -26,7 +27,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
 
       const urlSite = pages
         .map((page) => {
-          const url = page.replace(/\/index.html?$/, '');
+          const url = page.replace(/\/index.html?$/, trailingSlash ? '/' : '');
           return `
   <url>
     <loc>${baseUrl}/${url}</loc>

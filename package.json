@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-sitemap",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Add the process of creating a sitemap to Snowpack.",
   "keywords": [
     "snowpack",

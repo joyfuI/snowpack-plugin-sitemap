@@ -37,6 +37,7 @@ module.exports = {
         exclude: [`include/*`],
         gzip: true,
         changefreq: 'monthly',
+        trailingSlash: true,
       },
     ],
   ],
@@ -78,3 +79,10 @@ _타입_: `always | hourly | daily | weekly | monthly | yearly | never`
 `sitemap.xml`에서 페이지가 변경되는 빈도를 지정합니다. 지정하지 않으면 \<changefreq\> 속성을 추가하지 않습니다.
 
 자세한 내용은 [명세](https://www.sitemaps.org/ko/protocol.html#xmlTagDefinitions) 참고
+
+#### `trailingSlash`
+
+_타입_: `boolean`  
+_기본값_: `false`
+
+URL 끝에 /(슬래시)를 추가합니다.
