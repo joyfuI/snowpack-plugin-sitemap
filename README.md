@@ -2,6 +2,8 @@
 
 빌드할 때 사이트맵을 생성하는 Snowpack 플러그인
 
+관련 잡담은 [https://blog.joyfui.com/1244](https://blog.joyfui.com/1244)
+
 ## 설치
 
 ```bash
